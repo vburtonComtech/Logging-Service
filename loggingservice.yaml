@@ -691,9 +691,9 @@ components:
         - $ref: '#/components/schemas/LogEvent'
         - type: object
           required:
-            - agencyId
+            - additionalAgencyId
           properties:
-            agencyId:
+            additionalAgencyId:
               type: string
     IncidentMergeLogEvent:
       allOf:
