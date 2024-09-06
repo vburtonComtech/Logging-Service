@@ -700,11 +700,8 @@ components:
         - $ref: '#/components/schemas/LogEvent'
         - type: object
           required:
-            - incidentId
             - mergeIncidentId
           properties:
-            incidentId:
-              type: string
             mergeIncidentId:
               type: string
     IncidentUnMergeLogEvent:
